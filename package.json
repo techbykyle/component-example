@@ -1,0 +1,30 @@
+{
+  "name": "component-example",
+  "version": "0.0.1",
+  "description": "Example of a stand-alone federated module. Intended to be imported by another react app as a component or component library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": {
+    "name": "Kyle Melik",
+    "email": "kyle@techbykyle.com",
+    "url": "http://techbykyle.com/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.13.8",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "html-webpack-plugin": "5.3.1",
+    "webpack": "5.33.2",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.3"
+  }
+}
