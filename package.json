@@ -1,6 +1,6 @@
 {
   "name": "component-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Example of a stand-alone federated module. Intended to be imported by another react app as a component or component library.",
   "main": "index.js",
   "scripts": {
